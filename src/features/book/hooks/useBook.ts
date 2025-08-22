@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useQuery } from '@apollo/client';
-import { GET_BOOK } from '../api/get-book';
+import { useQuery } from "@apollo/client";
+import { GET_BOOK } from "../api/get-book";
 
 interface UseBookDetailProps {
   id: string;
